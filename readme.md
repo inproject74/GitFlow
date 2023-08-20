@@ -121,3 +121,10 @@ origin    git@github.com:%ИМЯ_АККАУНТА%/%ИМЯ-ПРОЕКТА%.git (
 
 **git push -u origin master** - если появляется ошибка, попробовать `git push -u origin main`
 **git push** - команда обновления в дальнейшем
+
+
+### Токен
+
+GitHub → Настройки → Developer settings → Personal Access tokens → Tokens (classic) → Generate new token → Generate new token (classic)
+
+git remote set-url origin https://<token>@github.com/<username>/<repo>
