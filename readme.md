@@ -139,4 +139,4 @@ origin    git@github.com:%ИМЯ_АККАУНТА%/%ИМЯ-ПРОЕКТА%.git (
 
 GitHub → Настройки → Developer settings → Personal Access tokens → Tokens (classic) → Generate new token → Generate new token (classic)
 
-'git remote set-url origin https://<token>@github.com/<username>/<repo>'
+`git remote set-url origin https://<token>@github.com/<username>/<repo>`
